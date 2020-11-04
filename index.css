@@ -1,5 +1,7 @@
 body{
-    background: #323232;
+    background: #fff;
+    margin: 0px;
+    padding: 0px;
 }
 a{
     text-decoration: none;
@@ -8,10 +10,12 @@ a{
         nav{
             display: flex;
             flex-flow: row nowrap;
-            align-items:center;
             justify-content: center;
-            padding: 0px;
+            padding: 0 75px;
             margin: 0px;
+            width: 1920px;
+            background: #fff;
+            border-bottom: #F0F0F0 2px solid;
         }
             div{
                 color: #898989;
@@ -22,8 +26,6 @@ a{
                 align-content: center;
                 justify-content: center;
                 justify-self: center;
-                padding: 20px;
-
             }
             .h{
                 padding: 20px;
@@ -42,7 +44,7 @@ a{
     justify-content: flex-start;
     align-content: flex-start;
     align-items: stretch;
-    padding: 20px;
+    margin:0 75px;
 
     }
     article{
@@ -51,7 +53,10 @@ a{
         flex: 0 1 100%;
         align-self: auto;
         padding: 20px;
-
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        border-radius: 3px;
     }
     .aside1{
         background: #855AC9;
@@ -59,7 +64,10 @@ a{
         flex: 1 1 auto;
         align-self: auto;
         padding: 20px;
-
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        border-radius: 3px;
     }
     .aside2{
         background: #FF90C4;
@@ -67,7 +75,8 @@ a{
         flex: 1 1 auto;
         align-self: auto;
         padding: 20px;
-
+        margin: 5px;
+        border-radius: 3px;
     }
     .aside3{
         background: #1B53BA;
@@ -75,7 +84,8 @@ a{
         flex: 1 1 auto;
         align-self: auto;
         padding: 20px;
-
+        margin: 5px;
+        border-radius: 3px;
     }
             .fas, .far{
                 margin: 20px;
@@ -128,6 +138,15 @@ a{
                 padding: 20px;
 
             }
+            .barra{
+                background: #F5F5F5;
+                border-bottom: gray 1px solid;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 75px;
+                box-shadow: #1F1F1F 0 20px;
+            }
 section{
     background: #fff;
     padding: 20px;
@@ -141,16 +160,39 @@ section{
     padding: 20px;
 }
     .company{
-        background: #f05454;
-        padding: 20px;
+        background: #1F1F1F;
+        padding: 0px;
+        display: flex;
+        border-right: #000000 2px solid;
     }
     .social{
-        background: #af2d2d;
+        background: #1F1F1F;
         padding: 20px;
+        font-size: 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-content: stretch;
+        border-right: #000 2px solid;
+    
     }
+        .socia{
+            margin: 10px;
+        }
     .terminos{
-        background:#ce6262;
+        background:#1F1F1F;
         padding: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-content: stretch;
+        align-items: flex-start;
+        text-decoration: underline;
+    }
+    .contenedor{
+        margin: 0 75px;
     }
 
 
@@ -196,5 +238,11 @@ section{
     background: #1B51BF;
 }
 a:hover{
+    color: #fff;
+}
+.socia:hover{
+    color: #fff;
+}
+li:hover{
     color: #fff;
 }
