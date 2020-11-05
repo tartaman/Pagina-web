@@ -1,0 +1,296 @@
+@font-face{
+    font-family: 'Propagan';
+    src: url(./Fuentes/PROPAGAN.ttf);
+}
+body{
+    background: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: #898989;
+    align-self: auto;
+}
+        nav{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            padding: 0 175px;
+            margin: 0px;
+            width: 1920px;
+            background: #fff;
+            border-bottom: #F0F0F0 2px solid;
+        }
+            .div{
+                color: #898989;
+                display: flex;
+                flex: 1 1 auto;
+                flex-wrap: wrap;
+                align-self: auto;
+                align-content: center;
+                justify-content: center;
+                justify-self: center;
+                align-self: center;
+            }
+.h{
+    padding: 20px;
+    margin: 0px;
+}
+.fas, .far{
+margin: 20px;
+font-size: 30px;
+align-self: center;
+padding: 20px;
+
+}
+.inicio{
+    border-bottom:#898989 10px solid;
+    border-bottom-left-radius: 5px;
+    color: #898989;
+    background: #fff;
+    padding: 20px;
+
+}
+.pokédex{
+    border-bottom:#E3350D 10px solid;
+    background: #fff;
+    padding: 20px;
+
+}
+.Aplicaciones{
+    border-bottom: #EE6B2F 10px solid;
+    background: #fff;
+    padding: 20px;
+
+}
+.Juego{
+    border-bottom: #E6BC2F 10px solid;
+    background: #fff;
+    padding: 20px;
+
+}
+.Tv{
+    border-bottom: #4DAD5B 10px solid;
+    background: #fff;
+    padding: 20px;
+
+}
+.Play{
+    border-bottom: #30A7D7 10px solid;
+    background: #fff;
+    padding: 20px;
+
+}
+.noticias{
+    border-bottom:#1B51BF 10px solid;
+    border-bottom-right-radius: 5px;
+    background: #fff;
+
+}
+.h{
+    flex: 1 1 auto;
+    height: 100px;
+    margin: 0px;
+    padding: 20px;
+
+}
+.barra{
+    background: #F5F5F5;
+    border-bottom: gray 1px solid;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 75px;
+    box-shadow: #1F1F1F 0 20px;
+}
+.flexp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: stretch;
+    margin:0 175px;
+
+    }
+#pokédex{
+    color: rgb(184, 184, 184);
+}
+.aa{
+    justify-content: center;
+}
+.buscador{
+    background:#313131 ;
+    height: 200px;
+    width: 1920px;
+    display: flex;
+    margin-bottom: 0px;
+    padding: 10px 175px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-content: flex-start;
+}
+    .nombre{
+        color: #fff;
+    }
+    #Pokédex{
+    }
+    .lupa{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center ;
+        align-content: center;
+        background: orange;
+        border-radius: 5px;
+        padding: 20px;
+        margin-left: 15px;
+        height: 20px;
+        width: 20px;
+    }
+    .lupai{
+        align-self: center;
+        font-size: 40px;
+        color: #fff;
+    }
+    .fl{
+        display: flex;
+        flex-direction: column;
+    }
+    .bloquev{
+        display: flex;
+        color: #fff;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        justify-self: center;
+        background: #4DAD5B;
+        margin-left: 30px;
+        height: 80px;
+        width: 400px;
+        border-radius: 5px;
+        font-family: 'arial';
+        letter-spacing: 0.5px;
+        font-size: 20px;
+    }
+    .subtitle{
+        color: #fff;
+    }
+    .gris{
+        background: #616161;
+        height: 40px;
+        margin-bottom: 0px;
+    }
+    .gris1{
+        background: #616161;
+        height: 20px;
+        width: 100px;
+        justify-self: center;
+        align-self: center;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background: #1F1F1F;
+    display: flex;
+    flex-flow: row nowrap center;
+    justify-content: center;
+    padding: 20px;
+}
+    .company{
+        background: #1F1F1F;
+        padding: 0px;
+        display: flex;
+        border-right: #000000 2px solid;
+        font-family: 'Propagan';
+    }
+    .social{
+        background: #1F1F1F;
+        padding: 20px;
+        font-size: 50px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-content: stretch;
+        border-right: #000 2px solid;
+    
+    }
+        .socia{
+            margin: 10px;
+        }
+    .terminos{
+        background:#1F1F1F;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-content: stretch;
+        align-items: flex-start;
+        text-decoration: underline;
+    }
+    .contenedor{
+        margin: 0 75px;
+    }
+    .flex{
+        display: flex;
+        height: 500px;
+        width: 500px;
+    }
+.inicio:hover{
+    color: #fff;
+    background: #898989;
+}
+.pokédex:hover{
+    color: #fff;
+    background: #E3350D;
+}
+.Aplicaciones:hover{
+    color: #fff;
+    background: #EE6B2F;
+}
+.Juego:hover{
+    color: #fff;
+    background: #E6BC2F;
+}
+.Tv:hover{
+    color: #fff;
+    background: #4DAD5B;
+}
+.Play:hover{
+    color: #fff;
+    background: #30A7D7;
+}
+.noticias:hover{
+    color: #fff;
+    background: #1B51BF;
+}
+a:hover{
+    color: #fff;
+}
+.socia:hover{
+    color: #fff;
+}
+li:hover{
+    color: #fff;
+}
+.bloquev:hover{
+    background: #215228;
+}

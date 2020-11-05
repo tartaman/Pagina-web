@@ -1,3 +1,7 @@
+@font-face{
+    font-family: 'Propagan';
+    src: url(./Fuentes/PROPAGAN.ttf);
+}
 body{
     background: #fff;
     margin: 0px;
@@ -6,12 +10,13 @@ body{
 a{
     text-decoration: none;
     color: #898989;
+    align-self: auto;
 }
         nav{
             display: flex;
             flex-flow: row nowrap;
             justify-content: center;
-            padding: 0 75px;
+            padding: 0 175px;
             margin: 0px;
             width: 1920px;
             background: #fff;
@@ -26,77 +31,23 @@ a{
                 align-content: center;
                 justify-content: center;
                 justify-self: center;
+                align-self: center;
             }
             .h{
                 padding: 20px;
                 margin: 0px;
             }
-            .noticias{
-                border-bottom:#1B51BF 10px solid;
-                border-bottom-right-radius: 5px;
-                background: #fff;
-
-            }
-.flexp{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: stretch;
-    margin:0 75px;
-
-    }
-    article{
-        background: #4DAD5B;
-        order: 1;
-        flex: 0 1 100%;
-        align-self: auto;
-        padding: 20px;
-        margin: 5px;
-        display: flex;
-        justify-content: center;
-        border-radius: 3px;
-    }
-    .aside1{
-        background: #855AC9;
-        order: 2;
-        flex: 1 1 auto;
-        align-self: auto;
-        padding: 20px;
-        margin: 5px;
-        display: flex;
-        justify-content: center;
-        border-radius: 3px;
-    }
-    .aside2{
-        background: #FF90C4;
-        order: 2;
-        flex: 1 1 auto;
-        align-self: auto;
-        padding: 20px;
-        margin: 5px;
-        border-radius: 3px;
-    }
-    .aside3{
-        background: #1B53BA;
-        order: 2;
-        flex: 1 1 auto;
-        align-self: auto;
-        padding: 20px;
-        margin: 5px;
-        border-radius: 3px;
-    }
-            .fas, .far{
-                margin: 20px;
-                font-size: 30px;
-                align-self: center;
-                padding: 20px;
+.fas, .far{
+    margin: 20px;
+    font-size: 30px;
+    align-self: center;
+    padding: 20px;
 
             }
             .inicio{
                 border-bottom:#898989 10px solid;
                 border-bottom-left-radius: 5px;
+                color: #898989;
                 background: #fff;
                 padding: 20px;
 
@@ -131,6 +82,12 @@ a{
                 padding: 20px;
 
             }
+            .noticias{
+                border-bottom:#1B51BF 10px solid;
+                border-bottom-right-radius: 5px;
+                background: #fff;
+
+            }
             .h{
                 flex: 1 1 auto;
                 height: 100px;
@@ -147,6 +104,84 @@ a{
                 height: 75px;
                 box-shadow: #1F1F1F 0 20px;
             }
+.flexp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: stretch;
+    margin:0 175px;
+
+    }
+    article{
+        background: #4DAD5B;
+        order: 1;
+        align-self:flex-start;
+        padding: 20px;
+        margin: 5px;
+        justify-content: center;
+        display: flex;
+        border-radius: 3px;
+        width: 500px;
+        height:300px ;
+    }
+    .div1{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        order: 2;
+    }
+    .aside1{
+        background: #855AC9;
+        order: 3;
+        align-self: auto;
+        padding: 20px;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        border-radius: 3px;
+        width: 400px;
+        height: 200px;
+    }
+    .aside2{
+        background: #FF90C4;
+        order: 2;
+        align-self: auto;
+        padding: 20px;
+        margin: 5px;
+        border-radius: 3px;
+        flex: 1 1 auto;
+        height: 250px;
+        width: 400px;
+    }
+    .div2{
+        display: flex;
+        order: 3;
+    }
+    
+    .aside3{
+        background: #1B53BA;
+        order: 2;
+        flex: 1 1 auto;
+        align-self: auto;
+        padding: 20px;
+        margin: 5px;
+        border-radius: 3px;
+        width: 500px;
+        height: 300px;
+    }
+    .aside4{
+        background: crimson;
+        order: 2;
+        flex: 3 2 auto;
+        align-self: auto;
+        padding: 20px;
+        margin: 5px;
+        border-radius: 3px;
+        height: 350px;
+    }
+            
 section{
     background: #fff;
     padding: 20px;
@@ -164,6 +199,7 @@ section{
         padding: 0px;
         display: flex;
         border-right: #000000 2px solid;
+        font-family: 'Propagan';
     }
     .social{
         background: #1F1F1F;
@@ -194,7 +230,11 @@ section{
     .contenedor{
         margin: 0 75px;
     }
-
+    .flex{
+        display: flex;
+        height: 500px;
+        width: 500px;
+    }
 
 
 
