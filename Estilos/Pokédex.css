@@ -11,6 +11,8 @@ a{
     text-decoration: none;
     color: #898989;
     align-self: auto;
+    display: flex;
+    flex-direction: column;
 }
         nav{
             display: flex;
@@ -34,11 +36,15 @@ a{
                 align-self: center;
             }
 .h{
-    padding: 20px;
+    padding: 0px;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 .fas, .far{
-margin: 20px;
+margin: 0px;
 font-size: 30px;
 align-self: center;
 padding: 20px;
@@ -86,11 +92,11 @@ padding: 20px;
     border-bottom:#1B51BF 10px solid;
     border-bottom-right-radius: 5px;
     background: #fff;
-
+    padding: 20px;
 }
 .h{
     flex: 1 1 auto;
-    height: 100px;
+    height: 80px;
     margin: 0px;
     padding: 20px;
 
