@@ -180,7 +180,7 @@ padding: 20px;
     .aside4{
         background: crimson;
         order: 2;
-        flex: 3 2 auto;
+        width: 400px;
         align-self: auto;
         padding: 20px;
         margin: 5px;
@@ -241,20 +241,6 @@ section{
         height: 500px;
         width: 500px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .inicio:hover{
     color: #fff;
     background: #898989;
