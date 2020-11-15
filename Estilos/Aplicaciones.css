@@ -6,6 +6,7 @@
     font-family: 'Montserrat-Regular';
     src: url(../Fuentes/Montserrat-Regular.ttf)
 }
+/* esto es el body junto con las propiedades de nav */
 body{
     background: #fff;
     margin: 0px;
@@ -115,89 +116,50 @@ padding: 20px;
     height: 75px;
     box-shadow: #1F1F1F 0 20px;
 }
-.flexp{
+/* contenido único de la página */
+.pp{
     display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: stretch;
-    margin:0 175px;
-
-    }
-    article{
-        background: #4DAD5B;
-        order: 1;
-        align-self:flex-start;
-        padding: 20px;
-        margin: 5px;
-        justify-content: center;
-        display: flex;
-        border-radius: 3px;
-        width: 500px;
-        height:300px ;
-    }
-    .div1{
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        order: 2;
-    }
-    .aside1{
-        background: #855AC9;
-        order: 3;
-        align-self: auto;
-        padding: 20px;
-        margin: 5px;
-        display: flex;
-        justify-content: center;
-        border-radius: 3px;
-        width: 400px;
-        height: 200px;
-    }
-    .aside2{
-        background: #FF90C4;
-        order: 2;
-        align-self: auto;
-        padding: 20px;
-        margin: 5px;
-        border-radius: 3px;
-        flex: 1 1 auto;
-        height: 250px;
-        width: 400px;
-    }
-    .div2{
-        display: flex;
-        order: 3;
-    }
-    
-    .aside3{
-        background: #1B53BA;
-        order: 2;
-        flex: 1 1 auto;
-        align-self: auto;
-        padding: 20px;
-        margin: 5px;
-        border-radius: 3px;
-        width: 500px;
-        height: 300px;
-    }
-    .aside4{
-        background: crimson;
-        order: 2;
-        width: 400px;
-        align-self: auto;
-        padding: 20px;
-        margin: 5px;
-        border-radius: 3px;
-        height: 350px;
-    }
-            
-section{
-    background: #fff;
-    padding: 20px;
-
+    justify-content: center;
 }
+.text-app{
+    color: #f1f1f1;
+    margin: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.square{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 10px;
+    background-color: #1B1C1F;
+    border-radius: 15px;
+    width: 680px;
+    height: 40%;
+    margin: 30px;
+    box-shadow: 20px 20px 10px grey;
+}
+.imagenapp{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.section{
+    background-color: #F1F1F1;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+
+
+
+
+
 .footer{
     background: #1F1F1F;
     display: flex;
