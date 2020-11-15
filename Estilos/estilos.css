@@ -143,28 +143,27 @@ padding: 20px;
         align-self:flex-start;
         margin: 5px;
         border-radius: 3px;
-        width: 500px;
         display: flex;
-        height: 500px;
-        width: 500px;
+        height: 700px;
+        width: 700px;
+        box-shadow: gray 10px 10px 5px;
         flex-direction: column;
     }
     .div1{
         display: flex;
         justify-content: flex-start;
-        flex-direction: column;
+        flex-direction: row;
         order: 2;
     }
     .aside1{
         background: #855AC9;
         order: 3;
         align-self: auto;
-        padding: 20px;
         margin: 5px 0px 5px 75px;
         display: flex;
-        justify-content: center;
         border-radius: 3px;
-        width: 400px;
+        width: 500px;
+        box-shadow: gray 10px 10px 5px;
         height: 200px;
     }
     .aside2{
@@ -176,7 +175,30 @@ padding: 20px;
         border-radius: 3px;
         flex: 1 1 auto;
         height: 250px;
+        box-shadow: gray 10px 10px 5px;
         width: 550px;
+    }
+    .azul{
+        background: cornflowerblue;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        border-radius: 3px;
+    }
+    .naranja{
+        width: 100%;
+        height: 400px;
+        background: orange;
+        margin: 10px;
+        border-radius: 3px;
+    }
+    .ayn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin: 0 40px;
     }
     .div2{
         display: flex;
@@ -186,13 +208,14 @@ padding: 20px;
     .aside3{
         background: #1B53BA;
         order: 2;
-        flex: 1 1 auto;
         align-self: auto;
         margin: 5px;
         border-radius: 3px;
         width: 600px;
         height: 275px;
         display: flex;
+        box-shadow: gray 10px 10px 5px;
+
     }
     .imagenb{
         height: 100%;
@@ -203,12 +226,14 @@ padding: 20px;
         order: 2;
         width: 600px;
         align-self: auto;
-        padding: 20px;
+        padding: 0px;
         margin: 5px 0 5px 45px;
         border-radius: 3px;
-        height: 350px;
+        height: 550px;
+        box-shadow: gray 10px 10px 5px;
+        display: flex;
+        flex-direction: column;
     }
-            
 section{
     background: #fff;
     padding: 20px;
@@ -226,7 +251,6 @@ section{
         padding: 0px;
         display: flex;
         border-right: #000000 2px solid;
-        font-family: 'Propagan';
     }
     .social{
         background: #1F1F1F;
@@ -305,6 +329,12 @@ li:hover{
     animation: 0.15s;
     position: relative;
     animation-name: ani;
+}
+.aside4:hover{
+    position: relative;
+    animation-duration: 0.15s;
+    animation-name: ani;
+    background: #7c0b22;
 }
 @keyframes ani{
     0%{bottom: 0px;}
