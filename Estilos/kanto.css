@@ -2,7 +2,6 @@
     font-family: 'Montserrat-Regular';
     src: url(../Fuentes/Montserrat-Regular.ttf)
 }
-/* esto es el body junto con las propiedades de nav */
 body{
     background: #fff;
     margin: 0px;
@@ -112,163 +111,82 @@ padding: 20px;
     height: 75px;
     box-shadow: #1F1F1F 0 20px;
 }
-.flexp{
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: stretch;
-    margin:0 175px;
-
-    }
-#pokédex{
-    color: rgb(184, 184, 184);
-    margin: 5px;
-}
-.aa{
-    justify-content: center;
-}
-.buscador{
-    background:#313131 ;
-    height: 250px;
-    display: flex;
-    margin-bottom: 0px;
-    padding: 10px 175px;
-}
-.row{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-content: flex-start;
-}
-    .nombre{
-        color: #fff;
-    }
-    .lupa{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center ;
-        align-content: center;
-        background: orange;
-        border-radius: 5px;
-        padding: 20px;
-        margin-left: 15px;
-        height: 20px;
-        width: 20px;
-    }
-    .lupai{
-        align-self: center;
-        font-size: 40px;
-        color: #fff;
-    }
-    .fl{
-        display: flex;
-        flex-direction: column;
-    }
-    .bloquev{
-        display: flex;
-        color: #fff;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        justify-self: center;
-        background: #4DAD5B;
-        margin-left: 30px;
-        height: 80px;
-        width: 400px;
-        border-radius: 5px;
-        padding: 10px;
-        font-family: 'Montserrat-Regular';
-        letter-spacing: 0.5px;
-        font-size: 20px;
-        text-align: justify;
-    }
-    .subtitle{
-        color: #fff;
-    }
-    .barrag{
-        height: 50px;
-        background: #616161;
-    }
-    .gris{
-        display: flex;
-        justify-content: center;
-
-    }
-    .gris1{
-        background: #616161;
-        height: 40px;
-        width: 300px;
-        margin-bottom: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        border-bottom-right-radius: 40px;
-        border-bottom-left-radius: 40px;
-    } 
-    /* aqui empieza section */
-.busque{
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.sorprendeme{
-    background: #30A7D7;
-    height: 40px;
-    border-radius: 10px;
-    padding: 0px 10px;
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
-.Numero{
-    background: #313131;
-    height: 35px;
-    width: 400px;
-    border-radius: 10px;
-    padding: 0px 10px;
-    display: flex;
-    align-content: center;
-    align-items: center;
-}
-.blanco{
-    color: #fff;
-    font-family: sans-serif;
-}
-.sn{
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    margin: 0 200px;
-}
-.fa-redo-alt{
-    font-size: 20px;
-    color: #fff;
-}
-.fa-bullseye{
-    font-size: 20px;
-    color: #fff;
-}
-.cuadro-cuadros{
-    background: #ffffff;
-    height: auto;
-    display: flex;
-    margin: 0 200px;
-}
-.cuadros{
-    background: #F2F2F2;
+/* contenido */
+.uno{
+    background-color: red;
     margin: 10px;
-    height: 205px;
-    flex: 1 1 ;
+    padding: 20px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.dos{
+    background-color: yellow;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.tres{
+    background-color: gold;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.cuatro{
+    background-color: crimson ;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.cinco{
+    background-color: silver ;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.seis{
+    background-color: brown;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.flexr{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    background-color: #f1f1f1;
+    border: 1px #1f1f1f solid;
+    box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 20px 550px;
+    border-radius: 20px;
+}
+.cube{
+    width: 30px;
+    height: 30px;
+}
+img{
+    width:300px;
+    height: 300px;
     border-radius: 10px;
 }
-/* Pokemones */
-.pokes{
-    width: 205px;
-    height: 205px;
+.cube:hover{
+    opacity: 0.5;
 }
 
 
@@ -277,9 +195,7 @@ padding: 20px;
 
 
 
-
-
-
+/* footer */
 .footer{
     background: #1F1F1F;
     display: flex;
@@ -364,17 +280,4 @@ a:hover{
 }
 li:hover{
     color: #fff;
-}
-.bloquev:hover{
-    background: #215228;
-}
-.cuadros:hover{
-    animation-name: ani;
-    animation-duration: 0.25s;
-    position: relative;
-}
-/* Animaciones :D */
-@keyframes ani{
-50%{bottom: 15px;}
-100%{bottom: 0px;}
 }

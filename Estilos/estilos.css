@@ -2,12 +2,19 @@
     font-family: 'Montserrat-Regular';
     src: url(../Fuentes/Montserrat-Regular.ttf)
 }
+@font-face{
+    font-family: 'Oswald';
+    src: url(../Fuentes/Oswald-VariableFont_wght.ttf);
+}
 body{
     background: #fff;
     margin: 0px;
     padding: 0px;
 }
 a{
+    text-decoration: none;
+}
+.ancla{
     text-decoration: none;
     color: #898989;
     align-self: auto;
@@ -144,9 +151,9 @@ padding: 20px;
         margin: 5px;
         border-radius: 3px;
         display: flex;
-        height: 700px;
-        width: 700px;
-        box-shadow: gray 10px 10px 5px;
+        height: 500px;
+        width: 500px;
+        box-shadow: rgba(0, 0, 0, 0.7) 10px 10px 5px;
         flex-direction: column;
     }
     .div1{
@@ -155,50 +162,96 @@ padding: 20px;
         flex-direction: row;
         order: 2;
     }
+    .pika{
+        width: 300px;
+        height: 200px;
+    }
+    .mor{
+        margin: 10px;
+    }
+    .mora{
+        color: #ffff;
+    }
     .aside1{
         background: #855AC9;
         order: 3;
-        align-self: auto;
-        margin: 5px 0px 5px 75px;
+        margin: 5px 0px 5px 50px;
         display: flex;
         border-radius: 3px;
-        width: 500px;
-        box-shadow: gray 10px 10px 5px;
-        height: 200px;
+        width: 300px;
+        box-shadow: rgba(0, 0, 0, 0.7) 10px 10px 5px;
+        height: 450px;
+        flex-direction: column;
     }
     .aside2{
         background: #FF90C4;
         order: 2;
         align-self: auto;
-        padding: 20px;
-        margin: 5px;
+        margin: 95px 5px 5px 5px;
         border-radius: 3px;
         flex: 1 1 auto;
-        height: 250px;
-        box-shadow: gray 10px 10px 5px;
-        width: 550px;
+        height: 300px;
+        box-shadow: rgba(0, 0, 0, 0.7) 10px 10px 5px;
+        width: 750px;
+        display: flex;
+    }
+    .masgrande{
+        font-size: 20px;
+        margin: 5px 2px 0px 20px;
+        padding: 10px;
+        text-align: left;
+        font-family: 'Oswald';
+        margin: 0 10px;
+        color: white;
     }
     .azul{
         background: cornflowerblue;
-        width: 300px;
-        height: 300px;
+        width: 450px;
+        height: 350px;
         margin: 10px;
         border-radius: 3px;
+        box-shadow: rgba(0, 0, 0, 0.7) 10px 10px 5px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .pequeño{
+        font-size: 20px;
+        text-align: left;
+        margin: 5px 7px;
+    }
+    .azu{
+        color: #1B53BA;
+
+    }
+    .desc{
+        font-size: 10px;
+        text-align: left;
+        font-family: 'Oswald';
+        margin: 0 10px;
+    }
+    .column{
+        flex-direction: column;
     }
     .naranja{
         width: 100%;
         height: 400px;
         background: orange;
-        margin: 10px;
+        margin: 10px 10px 10px 10px;
         border-radius: 3px;
+        width: 500px;
+        box-shadow: rgba(0, 0, 0, 0.7) 10px 10px 5px;
+
     }
     .ayn{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         align-content: center;
         justify-content: center;
-        margin: 0 40px;
+        margin: 0 0px 0 40px;
+        width: 50%;
+        position: static;
     }
     .div2{
         display: flex;
@@ -209,12 +262,12 @@ padding: 20px;
         background: #1B53BA;
         order: 2;
         align-self: auto;
-        margin: 5px;
+        margin: 80px 5px 5px 5px;
         border-radius: 3px;
         width: 600px;
         height: 275px;
         display: flex;
-        box-shadow: gray 10px 10px 5px;
+        box-shadow:rgba(0, 0, 0, 0.7) 10px 10px 5px;
 
     }
     .imagenb{
@@ -230,7 +283,7 @@ padding: 20px;
         margin: 5px 0 5px 45px;
         border-radius: 3px;
         height: 550px;
-        box-shadow: gray 10px 10px 5px;
+        box-shadow: rgba(0, 0, 0, 0.7) 10px 10px 5px;
         display: flex;
         flex-direction: column;
     }
@@ -309,7 +362,7 @@ section{
     color: #fff;
     background: #1B51BF;
 }
-a:hover{
+.ancla:hover{
     color: #fff;
 }
 .socia:hover{
@@ -323,6 +376,30 @@ li:hover{
     animation-name: ani;
     animation-duration: 0.15s;
     position: relative;
+}
+.aside2:hover{
+    animation-name: ani;
+    animation-duration: 0.15s;
+    position: relative;
+    background: #8d506c;
+}
+.aside1:hover{
+    animation-name: ani;
+    animation-duration: 0.15s;
+    position: relative;
+    background: #4d3475;
+}
+.azul:hover{
+    animation-name: ani;
+    animation-duration: 0.15s;
+    position: relative;
+    background-color: #365183;
+}
+.naranja:hover{
+    animation-name: ani;
+    animation-duration: 0.15s;
+    position: relative;
+    background-color: darkgoldenrod;
 }
 .aside3:hover{
     background: darkblue;

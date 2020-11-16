@@ -1,8 +1,4 @@
 @font-face{
-    font-family: 'Propagan';
-    src: url(./Fuentes/PROPAGAN.ttf);
-}
-@font-face{
     font-family: 'Montserrat-Regular';
     src: url(../Fuentes/Montserrat-Regular.ttf)
 }
@@ -159,7 +155,7 @@ padding: 20px;
 
 
 
-
+/* footer */
 .footer{
     background: #1F1F1F;
     display: flex;
