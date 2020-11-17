@@ -6,7 +6,7 @@ function slideSiguiente(n) {
 }
 
 function slideActual(n) {
-    enseñarSlides(indexSlides = n)
+    enseñarSlides(indexSlides = n);
 }
 
 function enseñarSlides(n) {
@@ -17,11 +17,10 @@ function enseñarSlides(n) {
     if (n < 1 ){indexSlides = slides.length}
     for ( i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
-        
     }
     for (i = 0; i < circulos.length; i++){
         circulos[i].className = circulos[i].className.replace("active", "");
     }
-    slides[indexSlides-1].style.display = " block";
-    circulos[indexSlides-1].className += " active";
+slides[indexSlides-1].style.display = "flex";
+circulos[indexSlides-1].className += " active";
 }

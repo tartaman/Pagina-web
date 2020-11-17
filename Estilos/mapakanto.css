@@ -156,7 +156,7 @@ padding: 20px;
     box-sizing: border-box;
 }
 .slide-ciudades{
-    max-width: 500px;
+    max-width:500px;
   position: relative;
   margin: auto;
 }
@@ -195,7 +195,7 @@ padding: 20px;
 }
 .numerador{
     color: #f2f2f2;
-  font-size: 8px;
+  font-size: 12px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
@@ -205,20 +205,20 @@ padding: 20px;
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #f2f2f2;
+    background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
-    transition: background-color 1s ease;
+    transition: background-color 0.6s ease;
 }
 .active, .circulo:hover{
     background-color: #969292;
 }
 .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
+    
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
-    
+    animation-name: fade;
+    animation-duration: 1.5s;
   }
   @-webkit-keyframes fade {
     from {opacity: .4}
