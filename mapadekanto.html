@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b237c4e263.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./Estilos/mapakanto.css">
+    <script src="./Js/scriptmapa.js"></script>
 </head>
 <body>
     <div class="barra"></div>
@@ -90,7 +91,82 @@
         </div>
     </div>
     <div class="slide-ciudades">
+        <div class="slidediv fade">
+            <div class="numerador">1/10</div>
+            <img src="Imágenes/Pueblopaleta.jpg" style="width: 100%;" class="imag">
+            <div class="textoslide">Pueblo Paleta</div>
+        </div>
 
+        <div class="slidediv fade">
+            <div class="numerador">2/10</div>
+            <img src="Imágenes/Ciudadverde.png" style="width: 100%;" class="imag">
+            <div class="textoslide">Ciudad Verde</div>
+        </div>
+
+        <div class="slidediv fade">
+            <div class="numerador">3/10</div>
+            <img src="Imágenes/Ciudadplateada.png" style="width: 100%;"class="imag">
+            <div class="textoslide">Ciudad Plateada</div>
+        </div>
+
+        <div class="slidediv fade">
+            <div class="numerador">4/10</div>
+            <img src="Imágenes/Ciudadceleste.png" style="width: 100%;"class="imag">
+            <div class="textoslide">Ciudad Celeste</div>
+        </div>
+
+        <div class="slidediv fade">
+            <div class="numerador">5/10</div>
+            <img src="Imágenes/Ciudadazafran.png" style="width: 100%;" class="imag">
+            <div class="textoslide">Ciudad Azafran</div>
+        </div>
+
+        <div class="slidediv fade">
+            <div class="numerador">6/10</div>
+            <img src="Imágenes/Ciudadcarmin.png" style="width: 100%;" class="imag">
+            <div class="textoslide">Ciudad Carmín</div>
+        </div>
+
+        <div class="slidediv fade">
+            <div class="numerador">7/10</div>
+            <img src="Imágenes/Ciudadazulona.png" style="width: 100%;" class="imag">
+            <div class="textoslide">Ciudad Azulona</div>
+        </div>
+
+        <div class="slidediv fade">
+            <div class="numerador">8/10</div>
+            <img src="Imágenes/Ciudadfucsia.png" style="width: 100%;" class="imag">
+            <div class="textoslide">Ciudad Fucsia</div>
+        </div>
+
+        <div class="slidediv fade">
+            <div class="numerador">9/10</div>
+            <img src="Imágenes/Pueblolavanda.png" style="width: 100%;" class="imag">
+            <div class="textoslide">Pueblo Lavanda</div>
+        </div>
+
+        <div class="slidediv fade">
+            <div class="numerador">10/10</div>
+            <img src="Imágenes/Islacanela.png" style="width: 100%;" class="imag">
+            <div class="textoslide">Isla Canela</div>
+        </div>
+        <a class="atras" onclick="slideSiguiente(-1)">&#10094;</a>
+        <a class="siguiente" onclick="slideSiguiente(1)">&#10095;</a>
+    </div>
+    <br>
+
+
+    <div class="circulosselectores">
+        <span class="circulo" onclick="slideActual(1)"></span>
+        <span class="circulo" onclick="slideActual(2)"></span>
+        <span class="circulo" onclick="slideActual(3)"></span>
+        <span class="circulo" onclick="slideActual(4)"></span>
+        <span class="circulo" onclick="slideActual(5)"></span>
+        <span class="circulo" onclick="slideActual(6)"></span>
+        <span class="circulo" onclick="slideActual(7)"></span>
+        <span class="circulo" onclick="slideActual(8)"></span>
+        <span class="circulo" onclick="slideActual(9)"></span>
+        <span class="circulo" onclick="slideActual(10)"></span>
     </div>
 
 
