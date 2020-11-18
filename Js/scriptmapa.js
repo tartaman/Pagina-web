@@ -21,6 +21,6 @@ function enseñarSlides(n) {
     for (i = 0; i < circulos.length; i++){
         circulos[i].className = circulos[i].className.replace("active", "");
     }
-slides[indexSlides-1].style.display = "flex";
+slides[indexSlides-1].style.display = "block";
 circulos[indexSlides-1].className += " active";
 }

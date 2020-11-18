@@ -115,130 +115,60 @@ padding: 20px;
     height: 75px;
     box-shadow: #1F1F1F 0 20px;
 }
-/* contenido */
-.containergeneral{
-    background-color: #f1f1f1;
-    margin: 20px 150px;
-    border-radius: 30px;
-}
-.containertitulo{
-    display: flex;
-    justify-content: center;
-}
-.title{
-    font-family: 'Roboto';
-    color: silver;
-}
-.kantoinfo{
+/* contenido unico de la pagina */
+.lideresdegym{
     color: gray;
-    margin: 5px 200px;
-}
-.containermapa{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 20px 200px;
-}
-.containertext{
-    display: flex;
-    justify-content: center;
     font-family: 'Roboto';
 }
-.containerimage{
+.rectangle{
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    margin: 5px 200px 20px 200px;
+    height: 250px;
     display: flex;
-    justify-content: center;
 }
-.imag{
-    width: 500px;
-    height: 300px;
-    border-radius: 20px;
+.lider{
+    width: 250px;
+    height: 250px;
 }
-*{
-    box-sizing: border-box;
+.Brock{
+    background-color: #9b7f2a;
 }
-.slide-ciudades{
-    max-width:500px;
-  position: relative;
-  margin: auto;
+.Misty{
+    background-color: #3A98F8;
 }
-.slidediv{
-    display: none;
+.Ltsurge{
+    background-color: #F8D030;
 }
-.atras , .siguiente{
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: #fff;
+.Erika{
+    background-color: #78C850;
+}
+.Koga{
+    background-color: #B058A0;
+}
+.Sabrina{
+    background-color: #F870A0;
+}
+.Blaine{
+    background-color: #F05030;
+}
+.Giovanni{
+    background-color: #D0B058;
+}
+.nombrelider{
+    font-family: 'Montserrat-Regular';
+}
+.textolider{
+    font-family: 'Roboto';
+    width: 200px;
+    text-align: justify
+
+}
+.tipo{
+    color: #F2F2F2;
     font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
+    font-size: 20px;
 }
-.siguiente{
-    right: 0px;
-    border-radius: 3px 0 0 3px;
-}
-.atras:hover , .siguiente:hover{
-    background-color: rgba(77, 28, 28, 0.6);
-}
-.textoslide{
-    color: #f1f1f1;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 2px;
-  width: 100%;
-  text-align: center;
-  background-color: rgba(77, 28, 28, 0.6);
-  border-radius: 0 0 20px 20px;
-}
-.numerador{
-    color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-  background:rgba(77, 28, 28, 0.6);
-  border-radius: 20px 0px 3px 0px;
-}
-.circulo{
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: rgba(77, 28, 28, 0.6);
-    border-radius: 25%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-.active, .circulo:hover{
-    background-color: #6d2b2b;
-}
-.fade {
-    
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-
-
-
-
-
 
 
 

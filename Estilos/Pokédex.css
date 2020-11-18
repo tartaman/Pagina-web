@@ -224,6 +224,31 @@ padding: 20px;
     align-content: center;
     align-items: center;
 }
+.sorprendeme:hover{
+    background-color:#225b72 ;
+    cursor: pointer;
+}
+.Blockcargar{
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.cargar{
+    color: #fff;
+    background-color: #1F1F1F;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.cargar:hover{
+    background-color: #5c5c5c;
+    cursor: pointer;
+}
+#button{
+    border: none;
+    background: none;
+}
 .Numero{
     background: #313131;
     height: 35px;
