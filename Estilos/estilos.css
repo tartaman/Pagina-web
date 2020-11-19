@@ -330,6 +330,7 @@ section{
         align-content: stretch;
         align-items: flex-start;
         text-decoration: underline;
+        color: #fff;
     }
     .contenedor{
         margin: 0 75px;
@@ -412,6 +413,12 @@ li:hover{
     animation-duration: 0.15s;
     animation-name: ani;
     background: #7c0b22;
+}
+.condis{
+    color: #6f6f6f;
+}
+.condis:hover{
+    color: #fff;
 }
 @keyframes ani{
     0%{bottom: 0px;}

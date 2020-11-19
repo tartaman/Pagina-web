@@ -6,6 +6,30 @@
     font-family: 'Roboto';
     src: url(../Fuentes/Roboto-Regular.ttf);
 }
+@font-face{
+    font-family: 'weather';
+    src: url(../Fuentes/IceCaps.ttf);
+}
+@font-face{
+    font-family: 'Merriweather' ;
+    src: url(../Fuentes/Merriweather-Regular.ttf);
+}
+@font-face{
+    font-family: 'Kablam';
+    src: url(../Fuentes/Ka\ Blam.ttf);
+}
+@font-face{
+    font-family: 'Wicked';
+    src: url(../Fuentes/Wicked\ Tricker.ttf);
+}
+@font-face{
+    font-family: 'Play';
+    src: url(../Fuentes/charbb_reg.ttf);
+}
+@font-face{
+    font-family: 'Blacklist';
+    src: url(../Fuentes/Blacklisted.ttf)
+}
 body{
     background: #fff;
     margin: 0px;
@@ -124,12 +148,12 @@ padding: 20px;
     background-color: #F2F2F2;
     border-radius: 10px;
     margin: 5px 200px 20px 200px;
-    height: 250px;
+    height: 400px;
     display: flex;
 }
 .lider{
     width: 250px;
-    height: 250px;
+    height: 100%;
 }
 .Brock{
     background-color: #9b7f2a;
@@ -160,20 +184,280 @@ padding: 20px;
 }
 .textolider{
     font-family: 'Roboto';
-    width: 200px;
-    text-align: justify
-
+    width: 300px;
+    text-align: justify;
 }
 .tipo{
     color: #F2F2F2;
     font-weight: bold;
     font-size: 20px;
+    border: #fff 2px solid;
+    border-radius: 50%;
+    display: inline-flex;
+    padding: 20px;
+    cursor: pointer;
+}
+.tipo:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.ligacontainer{
+    display: flex;
+    justify-content: center;
+    background-color: #3F3F3F;
+}
+.lideresliga{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    margin: 20px;
+}
+.ligaimagen{
+    width: 50%;
+    padding: 20px;
+    cursor: pointer;
 }
 
+.imagendellider{
+    width: 100%;
+}
+.imagenes2{
+    width: 100%;
+    display: flex;
+}
+.lorelei{
+    background-color:#58C8E0 ;
+    border-radius: 20px 0 0 0;
+}
+.bruno{
+    background-color: #A05038;
+    border-radius: 0 20px 0 0;
+}
+.agatha{
+    background-color: #6060B0;
+    border-radius: 0 0 0 20px;
+}
+.lance{
+    background-color:#7038F8;
+    border-radius: 0 0 20px 0;
+}
+.nombreelite{
+    color: #F1F1F1;
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.lorelei2{
+    font-family: 'weather';
+    color: #fff;
+
+}
+.bruno2{
+    font-family: 'Kablam';
+    letter-spacing: 2px;
+    color: #fff;
+
+}
+.agatha2{
+    font-family: 'Wicked';
+    color: #fff;
+    letter-spacing: 5px;
+}
+.lance2{
+    font-family: 'Play';
+    color: #fff;
+    letter-spacing: 2px;
+}
+.altomando{
+    color: #fff;
+    font-family: 'Blacklist';
+    letter-spacing: 2px;
+    font-size: 150px;
+}
+.textodellider{
+    width: 300px;
+    color: #f2f2f2;
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+.pkmnas{
+
+    margin: 20px;
+    width: 600px;
+    display: flex;
+    background-color: #e2c87a;
+    border-radius: 20px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 
 
-
-
+}
+.imapkmnas{
+    width: 200px;
+    height: 200px;
+    justify-self: center;
+    margin-left: 50px;
+}
+.pokemonestrellatext{
+    color: #f1f1f1;
+    font-family: 'Roboto';
+    margin-right: 200px;
+}
+.tipo1{
+    color: #F2F2F2;
+    font-weight: bold;
+    font-size: 20px;
+    border: #fff 2px solid;
+    width: 75px;
+    border-radius: 100px;
+    display: inline-flex;
+    padding: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.tipo2{
+    color: #F2F2F2;
+    font-weight: bold;
+    font-size: 20px;
+    border: #fff 2px solid;
+    width: 75px;
+    border-radius: 100px;
+    display: inline-flex;
+    padding: 10px;
+    justify-content: center;
+}
+.tipos{
+    display: flex;
+    flex-direction: column;
+}
+.flexa{
+    display: flex;
+}
+.roca{
+    background: #9B7F2A;
+}
+.agua{
+    background-color: #3A98F8;
+}
+.psiquico{
+    background-color: #F870A0;
+}
+.electrico{
+    background-color: #F8D030;
+}
+.planta{
+    background-color: #78C850;
+}
+.veneno{
+    background-color: #B058A0;
+}
+.psíquico{
+    background-color: #F870A0;
+}
+.fuego{
+    background-color:#F05030;
+}
+.infopokemon{
+    margin: 20px;
+    color: #1F1f1f;
+    font-family: 'Roboto';
+    font-size: 20px;
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding: 10px;
+}
+.infopokemonmisty{
+    margin: 20px;
+    color: #1F1f1f;
+    font-family: 'Roboto';
+    font-size: 20px;
+    background-color: #b4d9ff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.infopokemonltsurge{
+    margin: 20px;
+    color: #1F1f1f;
+    font-family: 'Roboto';
+    font-size: 20px;
+    background-color: #ffefaf;
+    border-radius: 10px;
+    padding: 10px;
+}
+.infopokemonerika{
+    margin: 20px;
+    color: #1F1f1f;
+    font-family: 'Roboto';
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #cdf7b9;
+}
+.infopokemonkoga{
+    margin: 20px;
+    color: #1F1f1f;
+    font-family: 'Roboto';
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #e6a2d9;
+}
+.infopokemonsabrina{
+    background-color: #ffcbdd;
+    margin: 20px;
+    color: #1F1f1f;
+    font-family: 'Roboto';
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.infopokemonblaine{
+    margin: 20px;
+    color: #1F1f1f;
+    font-family: 'Roboto';
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ff9883;
+}
+.infopokemongiovanni{
+    background-color: #ffeab1;
+    margin: 20px;
+    color: #1F1f1f;
+    font-family: 'Roboto';
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.misty{
+    background-color:#80bfff;
+}
+.ltsurge{
+    background-color: #fde47d;
+}
+.erika{
+    background: #a2f578;
+}
+.koga{
+    background-color: #b478a9;
+}
+.sabrina{
+    background-color: #ff98bc;
+}
+.blaine{
+    background-color: #ff7155;
+}
+.giovanni{
+    background-color: #e4c675;
+}
+.nombrequeaparece{
+    color: #f1f1f1;
+    font-size: 50px;
+}
 /* footer */
 .footer{
     background: #1F1F1F;

@@ -344,6 +344,7 @@ padding: 20px;
         align-content: stretch;
         align-items: flex-start;
         text-decoration: underline;
+        color: #fff;
     }
     .contenedor{
         margin: 0 75px;
