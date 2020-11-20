@@ -1,70 +1,82 @@
-@font-face{
+@font-face {
     font-family: 'Montserrat-Regular';
     src: url(../Fuentes/Montserrat-Regular.ttf)
 }
-@font-face{
+
+@font-face {
     font-family: 'Roboto';
     src: url(../Fuentes/Roboto-Regular.ttf);
 }
-@font-face{
+
+@font-face {
     font-family: 'weather';
     src: url(../Fuentes/IceCaps.ttf);
 }
-@font-face{
-    font-family: 'Merriweather' ;
+
+@font-face {
+    font-family: 'Merriweather';
     src: url(../Fuentes/Merriweather-Regular.ttf);
 }
-@font-face{
+
+@font-face {
     font-family: 'Kablam';
     src: url(../Fuentes/Ka\ Blam.ttf);
 }
-@font-face{
+
+@font-face {
     font-family: 'Wicked';
     src: url(../Fuentes/Wicked\ Tricker.ttf);
 }
-@font-face{
+
+@font-face {
     font-family: 'Play';
     src: url(../Fuentes/charbb_reg.ttf);
 }
-@font-face{
+
+@font-face {
     font-family: 'Blacklist';
     src: url(../Fuentes/Blacklisted.ttf)
 }
-body{
+
+body {
     background: #fff;
     margin: 0px;
     padding: 0px;
 }
-a{
+
+a {
     text-decoration: none;
     color: #898989;
     align-self: auto;
     display: flex;
     flex-direction: column;
 }
-        nav{
-            display: flex;
-            flex-flow: row nowrap;
-            justify-content: center;
-            padding: 0 175px;
-            margin: 0px;
-            width: 1920px;
-            background: #fff;
-            border-bottom: #F0F0F0 2px solid;
-            font-family: 'Yanone Kaffeesatz', sans-serif;
-        }
-            .div{
-                color: #898989;
-                display: flex;
-                flex: 1 1 auto;
-                flex-wrap: wrap;
-                align-self: auto;
-                align-content: center;
-                justify-content: center;
-                justify-self: center;
-                align-self: center;
-            }
-.h{
+
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding: 0 175px;
+    margin: 0px;
+    width: 1920px;
+    background: #fff;
+    border-bottom: #F0F0F0 2px solid;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.div {
+    color: #898989;
+    display: flex;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    align-self: auto;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.h {
     padding: 0px;
     margin: 0px;
     display: flex;
@@ -72,65 +84,68 @@ a{
     justify-content: center;
     align-content: center;
 }
-.fas, .far{
-margin: 0px;
-font-size: 30px;
-align-self: center;
-padding: 20px;
 
+.fas,
+.far {
+    margin: 0px;
+    font-size: 30px;
+    align-self: center;
+    padding: 20px;
 }
-.inicio{
-    border-bottom:#898989 10px solid;
+
+.inicio {
+    border-bottom: #898989 10px solid;
     border-bottom-left-radius: 5px;
     color: #898989;
     background: #fff;
     padding: 20px;
-
 }
-.pokédex{
-    border-bottom:#E3350D 10px solid;
+
+.pokédex {
+    border-bottom: #E3350D 10px solid;
     background: #fff;
     padding: 20px;
-
 }
-.Aplicaciones{
+
+.Aplicaciones {
     border-bottom: #EE6B2F 10px solid;
     background: #fff;
     padding: 20px;
-
 }
-.Juego{
+
+.Juego {
     border-bottom: #E6BC2F 10px solid;
     background: #fff;
     padding: 20px;
-
 }
-.Tv{
+
+.Tv {
     border-bottom: #4DAD5B 10px solid;
     background: #fff;
     padding: 20px;
-
 }
-.Play{
+
+.Play {
     border-bottom: #30A7D7 10px solid;
     background: #fff;
     padding: 20px;
-
 }
-.noticias{
-    border-bottom:#1B51BF 10px solid;
+
+.noticias {
+    border-bottom: #1B51BF 10px solid;
     border-bottom-right-radius: 5px;
     background: #fff;
     padding: 20px;
 }
-.h{
+
+.h {
     flex: 1 1 auto;
     height: 80px;
     margin: 0px;
     padding: 20px;
-
 }
-.barra{
+
+.barra {
     background: #F5F5F5;
     border-bottom: gray 1px solid;
     margin: 0;
@@ -139,55 +154,71 @@ padding: 20px;
     height: 75px;
     box-shadow: #1F1F1F 0 20px;
 }
+
+
 /* contenido unico de la pagina */
-.lideresdegym{
+
+.lideresdegym {
     color: gray;
     font-family: 'Roboto';
 }
-.rectangle{
+
+.rectangle {
     background-color: #F2F2F2;
     border-radius: 10px;
     margin: 5px 200px 20px 200px;
     height: 400px;
     display: flex;
 }
-.lider{
+
+.lider {
     width: 250px;
     height: 100%;
 }
-.Brock{
+
+.Brock {
     background-color: #9b7f2a;
 }
-.Misty{
+
+.Misty {
     background-color: #3A98F8;
 }
-.Ltsurge{
+
+.Ltsurge {
     background-color: #F8D030;
 }
-.Erika{
+
+.Erika {
     background-color: #78C850;
 }
-.Koga{
+
+.Koga {
     background-color: #B058A0;
 }
-.Sabrina{
+
+.Sabrina {
     background-color: #F870A0;
 }
-.Blaine{
+
+.Blaine {
     background-color: #F05030;
 }
-.Giovanni{
+
+.Giovanni {
     background-color: #D0B058;
 }
-.nombrelider{
+
+.nombrelider {
     font-family: 'Montserrat-Regular';
 }
-.textolider{
+
+.textolider {
     font-family: 'Roboto';
     width: 300px;
     text-align: justify;
 }
-.tipo{
+
+.tipo {
     color: #F2F2F2;
     font-weight: bold;
     font-size: 20px;
@@ -197,15 +228,18 @@ padding: 20px;
     padding: 20px;
     cursor: pointer;
 }
-.tipo:hover{
+
+.tipo:hover {
     background-color: rgba(255, 255, 255, 0.5);
 }
-.ligacontainer{
+
+.ligacontainer {
     display: flex;
     justify-content: center;
     background-color: #3F3F3F;
 }
-.lideresliga{
+
+.lideresliga {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -214,77 +248,88 @@ padding: 20px;
     border-radius: 20px;
     margin: 20px;
 }
-.ligaimagen{
+
+.ligaimagen {
     width: 50%;
     padding: 20px;
     cursor: pointer;
 }
 
-.imagendellider{
+.imagendellider {
     width: 100%;
 }
-.imagenes2{
+
+.imagenes2 {
     width: 100%;
     display: flex;
 }
-.lorelei{
-    background-color:#58C8E0 ;
+
+.lorelei {
+    background-color: #58C8E0;
     border-radius: 20px 0 0 0;
 }
-.bruno{
+
+.bruno {
     background-color: #A05038;
     border-radius: 0 20px 0 0;
 }
-.agatha{
+
+.agatha {
     background-color: #6060B0;
     border-radius: 0 0 0 20px;
 }
-.lance{
-    background-color:#7038F8;
+
+.lance {
+    background-color: #7038F8;
     border-radius: 0 0 20px 0;
 }
-.nombreelite{
+
+.nombreelite {
     color: #F1F1F1;
     font-family: 'Roboto';
     text-align: center;
     font-size: 20px;
     margin-top: 5px;
 }
-.lorelei2{
+
+.lorelei2 {
     font-family: 'weather';
     color: #fff;
-
 }
-.bruno2{
+
+.bruno2 {
     font-family: 'Kablam';
     letter-spacing: 2px;
     color: #fff;
-
 }
-.agatha2{
+
+.agatha2 {
     font-family: 'Wicked';
     color: #fff;
     letter-spacing: 5px;
 }
-.lance2{
+
+.lance2 {
     font-family: 'Play';
     color: #fff;
     letter-spacing: 2px;
 }
-.altomando{
+
+.altomando {
     color: #fff;
     font-family: 'Blacklist';
     letter-spacing: 2px;
     font-size: 150px;
 }
-.textodellider{
+
+.textodellider {
     width: 300px;
     color: #f2f2f2;
     font-family: 'Roboto';
     font-size: 15px;
 }
-.pkmnas{
 
+.pkmnas {
     margin: 20px;
     width: 600px;
     display: flex;
@@ -293,21 +338,22 @@ padding: 20px;
     flex-direction: column;
     align-content: center;
     align-items: center;
-
-
 }
-.imapkmnas{
+
+.imapkmnas {
     width: 200px;
     height: 200px;
     justify-self: center;
     margin-left: 50px;
 }
-.pokemonestrellatext{
+
+.pokemonestrellatext {
     color: #f1f1f1;
     font-family: 'Roboto';
     margin-right: 200px;
 }
-.tipo1{
+
+.tipo1 {
     color: #F2F2F2;
     font-weight: bold;
     font-size: 20px;
@@ -319,7 +365,8 @@ padding: 20px;
     justify-content: center;
     margin-bottom: 10px;
 }
-.tipo2{
+
+.tipo2 {
     color: #F2F2F2;
     font-weight: bold;
     font-size: 20px;
@@ -330,38 +377,53 @@ padding: 20px;
     padding: 10px;
     justify-content: center;
 }
-.tipos{
+
+.tipos {
     display: flex;
     flex-direction: column;
 }
-.flexa{
+
+.flexa {
     display: flex;
 }
-.roca{
+
+.roca {
     background: #9B7F2A;
 }
-.agua{
+
+.agua {
     background-color: #3A98F8;
 }
-.psiquico{
+
+.psiquico {
     background-color: #F870A0;
 }
-.electrico{
+
+.electrico {
     background-color: #F8D030;
 }
-.planta{
+
+.planta {
     background-color: #78C850;
 }
-.veneno{
+
+.veneno {
     background-color: #B058A0;
 }
-.psíquico{
+
+.psíquico {
     background-color: #F870A0;
 }
-.fuego{
-    background-color:#F05030;
+
+.fuego {
+    background-color: #F05030;
 }
-.infopokemon{
+
+.lucha {
+    background-color: #A05038;
+}
+
+.infopokemon {
     margin: 20px;
     color: #1F1f1f;
     font-family: 'Roboto';
@@ -370,7 +432,8 @@ padding: 20px;
     border-radius: 10px;
     padding: 10px;
 }
-.infopokemonmisty{
+
+.infopokemonmisty {
     margin: 20px;
     color: #1F1f1f;
     font-family: 'Roboto';
@@ -379,7 +442,8 @@ padding: 20px;
     border-radius: 10px;
     padding: 10px;
 }
-.infopokemonltsurge{
+
+.infopokemonltsurge {
     margin: 20px;
     color: #1F1f1f;
     font-family: 'Roboto';
@@ -388,7 +452,8 @@ padding: 20px;
     border-radius: 10px;
     padding: 10px;
 }
-.infopokemonerika{
+
+.infopokemonerika {
     margin: 20px;
     color: #1F1f1f;
     font-family: 'Roboto';
@@ -397,7 +462,8 @@ padding: 20px;
     padding: 10px;
     background-color: #cdf7b9;
 }
-.infopokemonkoga{
+
+.infopokemonkoga {
     margin: 20px;
     color: #1F1f1f;
     font-family: 'Roboto';
@@ -406,7 +472,8 @@ padding: 20px;
     padding: 10px;
     background-color: #e6a2d9;
 }
-.infopokemonsabrina{
+
+.infopokemonsabrina {
     background-color: #ffcbdd;
     margin: 20px;
     color: #1F1f1f;
@@ -415,7 +482,8 @@ padding: 20px;
     border-radius: 10px;
     padding: 10px;
 }
-.infopokemonblaine{
+
+.infopokemonblaine {
     margin: 20px;
     color: #1F1f1f;
     font-family: 'Roboto';
@@ -424,7 +492,8 @@ padding: 20px;
     padding: 10px;
     background-color: #ff9883;
 }
-.infopokemongiovanni{
+
+.infopokemongiovanni {
     background-color: #ffeab1;
     margin: 20px;
     color: #1F1f1f;
@@ -433,114 +502,140 @@ padding: 20px;
     border-radius: 10px;
     padding: 10px;
 }
-.misty{
-    background-color:#80bfff;
+
+.misty {
+    background-color: #80bfff;
 }
-.ltsurge{
+
+.ltsurge {
     background-color: #fde47d;
 }
-.erika{
+
+.erika {
     background: #a2f578;
 }
-.koga{
+
+.koga {
     background-color: #b478a9;
 }
-.sabrina{
+
+.sabrina {
     background-color: #ff98bc;
 }
-.blaine{
+
+.blaine {
     background-color: #ff7155;
 }
-.giovanni{
+
+.giovanni {
     background-color: #e4c675;
 }
-.nombrequeaparece{
+
+.nombrequeaparece {
     color: #f1f1f1;
     font-size: 50px;
 }
+
+
 /* footer */
-.footer{
+
+.footer {
     background: #1F1F1F;
     display: flex;
     flex-flow: row nowrap center;
     justify-content: center;
     padding: 20px;
 }
-    .company{
-        background: #1F1F1F;
-        padding: 0px;
-        display: flex;
-        border-right: #000000 2px solid;
-        font-family: 'Propagan';
-    }
-    .social{
-        background: #1F1F1F;
-        padding: 20px;
-        font-size: 50px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        align-content: stretch;
-        border-right: #000 2px solid;
-    
-    }
-        .socia{
-            margin: 10px;
-        }
-    .terminos{
-        background:#1F1F1F;
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        align-content: stretch;
-        align-items: flex-start;
-        text-decoration: underline;
-    }
-    .contenedor{
-        margin: 0 75px;
-    }
-    .flex{
-        display: flex;
-        height: 500px;
-        width: 500px;
-    }
-.inicio:hover{
+
+.company {
+    background: #1F1F1F;
+    padding: 0px;
+    display: flex;
+    border-right: #000000 2px solid;
+    font-family: 'Propagan';
+}
+
+.social {
+    background: #1F1F1F;
+    padding: 20px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    border-right: #000 2px solid;
+}
+
+.socia {
+    margin: 10px;
+}
+
+.terminos {
+    background: #1F1F1F;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: flex-start;
+    text-decoration: underline;
+}
+
+.contenedor {
+    margin: 0 75px;
+}
+
+.flex {
+    display: flex;
+    height: 500px;
+    width: 500px;
+}
+
+.inicio:hover {
     color: #fff;
     background: #898989;
 }
-.pokédex:hover{
+
+.pokédex:hover {
     color: #fff;
     background: #E3350D;
 }
-.Aplicaciones:hover{
+
+.Aplicaciones:hover {
     color: #fff;
     background: #EE6B2F;
 }
-.Juego:hover{
+
+.Juego:hover {
     color: #fff;
     background: #E6BC2F;
 }
-.Tv:hover{
+
+.Tv:hover {
     color: #fff;
     background: #4DAD5B;
 }
-.Play:hover{
+
+.Play:hover {
     color: #fff;
     background: #30A7D7;
 }
-.noticias:hover{
+
+.noticias:hover {
     color: #fff;
     background: #1B51BF;
 }
-a:hover{
+
+a:hover {
     color: #fff;
 }
-.socia:hover{
+
+.socia:hover {
     color: #fff;
 }
-li:hover{
+
+li:hover {
     color: #fff;
 }

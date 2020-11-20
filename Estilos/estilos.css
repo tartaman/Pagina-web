@@ -298,6 +298,7 @@ section{
     flex-flow: row nowrap center;
     justify-content: center;
     padding: 20px;
+    margin-bottom: 0;
 }
     .company{
         background: #1F1F1F;
