@@ -21,12 +21,8 @@ function enseñarSlides(n) {
     for (i = 0; i < circulos.length; i++){
         circulos[i].className = circulos[i].className.replace("active", "");
     
-slides[indexSlides-1].style.className = "block";
-circulos[indexSlides-1].className += " active";
+    
+    }
+    slides[indexSlides-1].className = "block";
+    circulos[indexSlides-1].className += " active";
 }
-}
-function aparece() {
-    var ast = document.getElementsByClassName("ast");
-
-    ast.className.replace("ast","block")
-}  
