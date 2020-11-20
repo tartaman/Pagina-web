@@ -390,11 +390,18 @@ nav {
 .roca {
     background: #9B7F2A;
 }
-
+.dragón{
+    background-color: #7038F8;
+}
 .agua {
     background-color: #3A98F8;
 }
-
+.hielo{
+    background-color: #58C8E0;
+}
+.fantasma{
+    background-color: #6060B0;
+}
 .psiquico {
     background-color: #F870A0;
 }
@@ -422,7 +429,9 @@ nav {
 .lucha {
     background-color: #A05038;
 }
-
+.volador{
+    background-color: rgb(148, 223, 236);
+}
 .infopokemon {
     margin: 20px;
     color: #1F1f1f;
@@ -535,8 +544,16 @@ nav {
     color: #f1f1f1;
     font-size: 50px;
 }
-
-
+.uno{
+    width: 200px;
+    height: 200px;
+}
+.infopokeliga{
+    color: #f1f1f1;
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: justify;
+}
 /* footer */
 
 .footer {

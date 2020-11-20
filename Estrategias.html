@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Estilos/estrategias.css">
+    <script src="https://kit.fontawesome.com/b237c4e263.js" crossorigin="anonymous"></script>
+    <script src="./Js/estrategias.js"></script>
+</head>
+<body>
+    <div class="barra"></div>
+    <header>
+        <div class="div">
+            <nav>
+                    <a href="index.html" class="ancla1">
+                        <div class="inicio div">
+    
+                                <i class="fas fa-dragon"></i>
+                                <p>Inicio</p>
+    
+                        </div>
+                    </a>
+                    <a href="pokédex.html">
+                        <div class="pokédex div">
+    
+                                <i class="fas fa-adjust"></i>
+                                <p> Pokédex</p>
+    
+                        </div>
+                    </a>
+                    <a href="Aplicaciones.html">
+                        <div class="Aplicaciones div">
+                                <i class="fas fa-mobile-alt"></i>
+                                <p>Aplicaciones</p>
+                        </div>
+                    </a>
+                    <a href="mapadekanto.html">
+                        <div class="Juego div">
+    
+                                <i class="fas fa-scroll"></i>
+                                <br>
+                                <p>Mapa de kanto</p> 
+    
+                        </div>
+                    </a>
+                    <a href="juegoskanto.html">
+                        <div class="Tv div">
+    
+                                <i class="fas fa-tv"></i>
+                                <br>
+                                <p> Juegos situados en kanto</p>
+                        
+                        </div>
+                    </a>
+                    <a href="ligakanto.html">
+                        <div class="Play div">
+    
+                                <i class="fas fa-trophy"></i>
+                                <br>
+                                <p>Liga de kanto</p>
+    
+                        </div>
+                    </a>
+                    <a href="Estrategias.html">
+                        <div class="noticias div">
+    
+                                <i class="far fa-newspaper"></i>
+                                <p> Estrategias o equipos</p>
+                        
+                        </div>
+                    </a>
+                </nav>
+            </div>
+    </header>
+    <!-- contenido -->
+    <section>
+        <h1 class="escoge">Escoge tú inicial y te diremos cual sería tu equipo ideal en la region de Kanto!</h1>
+        <div class="starter">
+            <div>
+                <div class="bulbasaur starters">
+                    <img src="Imágenes/bulba.png" alt="">
+                </div>
+                <div class="column">
+                <p class="nombrepkmn"> Bulbasaur</p>
+                <div class="tipo planta">Planta</div>
+                </div>
+            </div>
+            <div>
+                <div class="charmander starters" onclick="charmander()">
+                    <img src="Imágenes/charma.png" alt="">
+                </div>
+                <div class="column">
+                    <p class="nombrepkmn">Charmander</p>
+                    <div class="tipo fuego">Fuego</div>
+                </div>
+            </div>
+
+            <div>
+            <div class="squirtle starters">
+                <img src="Imágenes/squir.png" alt="">
+            </div>
+                <div class="column">
+                    <p class="nombrepkmn">Squirtle</p>
+                    <div class="tipo agua">Agua</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="charmander" style="display: none;">
+            <div id="escogiste" class="nombrepkmn">
+
+            </div>
+            <div class="contenedorcharmander">
+                <div class="contenedorindividual">
+                    <div class="contenedorimagen">
+                        <img src="Imágenes/chari.png" alt="" class="imagen">
+                    </div>
+                    <div class="column">
+                        <p class="nombrepkmns">Charizard</p>
+                        <div class="contenedortipos">
+                            <div class="tipo fuego">Fuego</div>
+                            <div class="tipo volador">Volador</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedorindividual">
+                    <div class="contenedorimagen">
+                        <img src="Imágenes/Lapras.png" alt="" class="imagen">
+                    </div>
+                    <div class="column">
+                        <p class="nombrepkmns">Lapras</p>
+                        <div class="contenedortipos">
+                            <div class="tipo agua">Agua</div>
+                            <div class="tipo hielo">Hielo</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedorindividual">
+                    <div class="contenedorimagen">
+                        <img src="Imágenes/Vileplume.png" alt="" class="imagen">
+                    </div>
+                    <div class="column">
+                        <p class="nombrepkmns">Vileplume</p>
+                        <div class="contenedortipos">
+                            <div class="tipo planta">Planta</div>
+                            <div class="tipo veneno">Veneno</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedorindividual">
+                    <div class="contenedorimagen">
+                        <img src="Imágenes/Pidgeot.png" alt="" class="imagen">
+                    </div>
+                    <div class="column">
+                        <p class="nombrepkmns">Pidgeot</p>
+                        <div class="contenedortipos">
+                            <div class="tipo normal">Normal</div>
+                            <div class="tipo volador">Volador</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedorindividual">
+                    <div class="contenedorimagen">
+                        <img src="Imágenes/Mewtwo.png" alt="" class="imagen">
+                    </div>
+                    <div class="column">
+                        <p class="nombrepkmns">Mewtwo</p>
+                        <div class="contenedortipos">
+                            <div class="tipo psíquico">Psíquico</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedorindividual">
+                    <div class="contenedorimagen">
+                        <img src="Imágenes/Gengar.png" alt="" class="imagen">
+                    </div>
+                    <div class="column">
+                        <p class="nombrepkmns">Gengar</p>
+                        <div class="contenedortipos">
+                            <div class="tipo veneno">Veneno</div>
+                            <div class="tipo fantasma">Fantasma</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="contenedor div">
+            <div class="company div">
+                <ul>
+                    <p>The Pokemon Company</p>
+                    <li>Novedades</li>
+                    <li>Guía para padres/tutores</li>
+                    <li>Servicio de atención al cliente</li>
+                    <li>Sobre nuestra compañía</li>
+                    <li>Seleccionar país o región</li>
+                    <li>Sitio de prensa Pokémon</li>
+                </ul>
+            </div>
+            <div class="social div">
+                <i class="fab fa-facebook-square socia"></i>
+                <i class="fab fa-youtube socia"></i>
+                <i class="fab fa-twitter-square socia"></i>
+                <i class="fab fa-instagram-square socia"></i>
+            </div>
+            <div class="terminos div">
+                <a href="#">Condiciones de uso</a>
+                <a href="#">Aviso de privacidad</a>
+                <a href="#">Página de Cookies</a>
+                <a href="#">Información legal</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
