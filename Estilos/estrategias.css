@@ -218,6 +218,7 @@ nav {
     align-self: center;
     font-family: 'Merriweather';
 }
+/* charmander */
 .contenedorcharmander{
     background-color: #f04924;
     width: auto;
@@ -229,7 +230,7 @@ nav {
     margin: 0 auto;
     justify-content: center;
 }
-.contenedorindividual{
+.contenedorindividualc{
     background-color: #E76D51;
     width: 400px;
     height: 400px;
@@ -249,9 +250,50 @@ nav {
     align-self: center;
     margin-top: 20px;
 }
+/* bulbasaur */
+.contenedorbulbasaur{
+    background-color: #3aec55;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.contenedorindividualb{
+    background-color: #66ff7d;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
 
+}
+/* squirtle */
+.contenedorsquirtle{
+    background-color: #4eccfd;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.contenedorindividuals{
+    background-color: #95e1ff;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
 
-
+}
 
 
 
