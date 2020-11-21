@@ -9,7 +9,7 @@ var a = document.getElementById('charmander');
     }
 }
 function bulbasaur(){
-    document.getElementById('escogistebulba').innerHTML = '¡Haz escogido a Bulbasaur!, Busca estos pokémones, y ,¡con este equipo la tendrás más fácil!'
+    document.getElementById('escogistebulba').innerHTML = '¡Haz escogido a Bulbasaur!, Busca estos pokémones, y ,¡con este equipo la tendrás un poco más fácil!'
 var a = document.getElementById('bulbasaur');
 
     if (a.style.display === "none") {
@@ -19,7 +19,7 @@ var a = document.getElementById('bulbasaur');
     }
 }
 function squirtle(){
-    document.getElementById('escogistesquir').innerHTML = '¡Haz escogido a Bulbasaur!, Busca estos pokémones, y ,¡con este equipo la tendrás más fácil!'
+    document.getElementById('escogistesquir').innerHTML = '¡Haz escogido a Squirtle!, Busca estos pokémones, y ,¡con este equipo la tendrás más sencilla!'
 var a = document.getElementById('squirtle');
 
     if (a.style.display === "none") {
